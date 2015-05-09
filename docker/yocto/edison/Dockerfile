@@ -1,4 +1,4 @@
-FROM yocto/edison:w05-15
+FROM yocto/edison:ww18-15
 ADD base-feeds.conf /etc/opkg/
 RUN opkg update
 RUN opkg install python-pip bluez5-obex bluez5-dev bluez5-testtools bluez-hcidump bash bison coreutils diffutils e2fsprogs elfutils findutils git iw less libevent-dev lirc nodejs opkg-utils quilt rsync ruby-staticdev screen syslinux tar tcpdump time util-linux-uuidgen uuid vim
